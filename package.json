@@ -1,0 +1,16 @@
+{
+  "name": "nextjs-playground",
+  "version": "1.0.0",
+  "description": "🔬 Next.js learning repository - Collection of practice projects and experiments to explore Next.js features and best practices. For educational purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
