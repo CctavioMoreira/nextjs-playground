@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "lucide-react": "^0.460.0",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
