@@ -72,7 +72,7 @@ function Home() {
         {`
           .heart {
             position: absolute;
-            font-size: 5vw;
+            font-size: 10vw; /* Aumentado de 5vw para 10vw */
             color: #ff66b3;
             animation-name: floatUp;
             animation-timing-function: ease-out;
