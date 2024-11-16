@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 
 function Home() {
   const [hearts, setHearts] = useState([]);
@@ -61,6 +62,12 @@ function Home() {
         padding: '20px',
       }}
     >
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <style>
         {`
           .heart {
@@ -86,7 +93,7 @@ function Home() {
       </style>
       <h1
         style={{
-          fontFamily: "'Comic Sans MS', cursive, sans-serif",
+          fontFamily: "'Indie Flower', cursive",
           fontSize: '8vw',
           textShadow: '2px 2px #ffb3d9',
           textAlign: 'center',
@@ -107,7 +114,7 @@ function Home() {
           fontSize: '4vw',
           marginTop: '5vh',
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-          fontFamily: "'Comic Sans MS', cursive, sans-serif",
+          fontFamily: "'Indie Flower', cursive",
           position: 'relative',
           overflow: 'hidden',
         }}
