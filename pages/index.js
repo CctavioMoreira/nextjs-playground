@@ -119,7 +119,7 @@ function Home() {
           overflow: 'hidden',
         }}
       >
-        <span style={{ position: 'relative', zIndex: 1 }}>Mais amor!</span>
+        <span style={{ position: 'relative', zIndex: 1 }}>Clique aqui pra ver uma coisa</span>
       </button>
       {hearts.map((heart) => (
         <div
@@ -131,7 +131,7 @@ function Home() {
             animationDuration: `${heart.animationDuration}s`,
           }}
         >
-          ❤️
+          ❤️🐽
         </div>
       ))}
     </div>
